@@ -180,12 +180,15 @@ Restart Grafana to reload the config:
 Display CPU and memory metrics on Grafana: 
 
 On Grafana, click "Dashboard" and then "+New"
+
 Select "Prometheus" as the data source in the "Metrics" tab. 
 In the PromQL query field, enter a query: 100 - (avg by (instance) (irate(node_cpu_seconds_total{mode="idle"}[2m])) * 100
+
 Click "Apply" to save the panel.
 
-Add another panel for memory usage
+Add another panel for memory usage: 
 In the PromQL query field, enter a query: node_memory_MemTotal_bytes - node_memory_MemFree_bytes - node_memory_Buffers_bytes - node_memory_Cached_bytes
+
 Click "Apply" to save the panel. 
 
 
