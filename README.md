@@ -55,8 +55,8 @@ Create a systemd unit configuration file:
       --web.listen-address=0.0.0.0:9090 \
       --web.enable-lifecycle
 
-[Install]
-WantedBy=multi-user.target
+    [Install]
+    WantedBy=multi-user.target
 
 
 Start and check the status of Prometheus:
