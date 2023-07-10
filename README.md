@@ -177,7 +177,7 @@ Restart Grafana to reload the config:
 
     sudo systemctl restart grafana-server
 
-Display CPU and memory metrics on Grafana: 
+## Display CPU and memory metrics on Grafana: 
 
 On Grafana, click "Dashboard" and then "+New"
 
