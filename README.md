@@ -174,6 +174,7 @@ Create a new datasources.yaml file:
         isDefault: true
 
 Restart Grafana to reload the config: 
+
     sudo systemctl restart grafana-server
 
 Display CPU and memory metrics on Grafana: 
