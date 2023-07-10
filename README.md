@@ -1,4 +1,4 @@
-# grafana
+# Display CPU and Memory Usage on Grafana Dashboard
 
 ## Install Prometheus
 
